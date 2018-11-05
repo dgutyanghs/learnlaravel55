@@ -18,9 +18,6 @@ class ArticleController extends Controller
         return view('admin/article/create');
     }
 
-    /**
-     * @param Request $request
-     */
     public function store(Request $request) {
        $this->validate($request, [
            'title' => 'required|unique:articles|max:255',
