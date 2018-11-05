@@ -23,3 +23,10 @@ Route::get('now', function () {
     return date("Y-m-d H:i:s");
 
 });
+
+Route::group(['middleware' => 'auth', 'namespace' => 'Admin', 'prefix' => 'admin'],            function() {
+    Route::get('/', 'HomeController@index');
+    Route::get('article', "ArticleController@index");
+
+});
+

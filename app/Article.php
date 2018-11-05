@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model
 {
     //
-    private title;
+/*    private title;
     private user_id;
-    private body;
+    private body;*/
 }
