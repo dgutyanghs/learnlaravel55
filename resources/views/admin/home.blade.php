@@ -8,7 +8,7 @@
                     <div class="panel-heading">
 
                         <div class="panel-body">
-                            <a href="{{ url('admin/article') }}" class="btn btn-lg btn-success col-xs-12">管理文章</a>
+                            <a href="{{ url('admin/articles') }}" class="btn btn-lg btn-success col-xs-12">管理文章</a>
                         </div>
                     </div>
                 </div>

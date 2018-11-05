@@ -26,7 +26,8 @@ Route::get('now', function () {
 
 Route::group(['middleware' => 'auth', 'namespace' => 'Admin', 'prefix' => 'admin'],            function() {
     Route::get('/', 'HomeController@index');
-    Route::get('article', "ArticleController@index");
+    Route::resource('articles', 'ArticleController');
+    // Route::get('article', "ArticleController@index");
 
 });
 

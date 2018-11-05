@@ -1,4 +1,4 @@
-@extends('layouts')
+@extends('layouts.app')
 
 @section('content')
     <div class="container">
@@ -13,7 +13,7 @@
                             </div>
                         @endif
 
-                        <a href="{{ url('admin/article/create') }}" class="btn btn-lg btn-primary">新增</a>
+                        <a href="{{ url('admin/articles/create') }}" class="btn btn-lg btn-primary">新增</a>
 
                         @foreach($articles as $article)
                             <hr>
