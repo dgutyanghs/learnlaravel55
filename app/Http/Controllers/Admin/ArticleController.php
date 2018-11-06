@@ -60,7 +60,5 @@ class ArticleController extends Controller
         }else {
             return redirect()->back()->withInput()->withErrors('更新失败!');
         }
-
-
     }
 }
