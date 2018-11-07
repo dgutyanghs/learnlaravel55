@@ -1,0 +1,16 @@
+* Lavarel 笔记
+** homestead 环境下创建数据库
+#+BEGIN_SRC sql
+// SSH into the box
+vagrant ssh
+
+// Connect to MySQL as the homestead user (password is: secret)
+mysql -u homestead -p
+
+// Create a new database in MySQL
+CREATE DATABASE your_app_name;
+
+// Leave MySQL
+exit;
+
+#+END_SRC
