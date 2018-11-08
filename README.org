@@ -15,8 +15,20 @@ exit;
 
 #+END_SRC
 ** Navicat连接homestead数据库设置
+#+BEGIN_EXAMPLE
+User Name:homestead
+Password:secret
+#+END_EXAMPLE
 #+attr_html: width 100px
+#+ATTR_ORG: :width 100
 [[file:homestead1.png]]
+
+
+#+BEGIN_EXAMPLE
+User Name = vagrant
+Password = vagrant
+#+END_EXAMPLE
 #+attr_html: width 100px
+#+ATTR_ORG: :width 100
 [[file:homestead2.png]]
 
