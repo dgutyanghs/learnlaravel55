@@ -15,8 +15,8 @@ exit;
 
 #+END_SRC
 ** Navicat连接homestead数据库设置
+#+attr_html: width 100px
 [[file:homestead1.png]]
-#+attr_html: :width 100px
-#+attr_latex: :width 100px
+#+attr_html: width 100px
 [[file:homestead2.png]]
 
