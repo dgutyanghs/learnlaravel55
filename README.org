@@ -14,3 +14,7 @@ CREATE DATABASE your_app_name;
 exit;
 
 #+END_SRC
+** Navicat连接homestead数据库设置
+[[file:homestead1.png]]
+[[file:homestead2.png]]
+
