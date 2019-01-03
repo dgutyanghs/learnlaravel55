@@ -31,4 +31,19 @@ Password = vagrant
 #+attr_html: width 100px
 #+ATTR_ORG: :width 100
 [[file:homestead2.png]]
+** mysql操作 
+*** update table default value
+#+BEGIN_SRC mysql
+ALTER TABLE t_user MODIFY COLUMN update_time VARCHAR(255) NOT NULL DEFAULT '2019-01-01 00:00:00';
+#+END_SRC
+update default value for column 'update_time';
+*** alter table character set 
+#+BEGIN_SRC mysql 
+ALTER TABLE t_user CONVERT TO CHARACTER SET utf8, COLLATE utf8_general_ci;
 
+#+END_SRC
+*** mysql data type 'datetime'
+#+BEGIN_SRC mysql 
+update t_user set update_time='2019-01-02 00:00:00' WHERE update_time='0000-00-00 00:00:00';
+
+#+END_SRC
